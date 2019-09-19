@@ -14,7 +14,7 @@ namespace S2Geometry.Tests
     {
         public Random rand { get; private set; }
 
-        [TestFixtureSetUp]
+        [SetUp]
         protected virtual void SetUp()
         {
             rand = new Random(123456);
